@@ -7,6 +7,7 @@ const SynchrosNav = () => {
     { path: "/play", label: "Play" },
     { path: "/game", label: "Game" },
     { path: "/create", label: "Create" },
+    { path: "/relax", label: "Relax" },
   ];
 
   return (

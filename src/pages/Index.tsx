@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import OrbitalDecoration from "@/components/synchros/OrbitalDecoration";
-import { Sparkles, Target, Palette, ArrowRight } from "lucide-react";
+import { Sparkles, Target, Palette, Moon, ArrowRight } from "lucide-react";
 
 const Index = () => {
   const modes = [
@@ -30,6 +30,15 @@ const Index = () => {
       icon: Palette,
       gradient: "from-synchros-cyan to-primary",
       hoverGlow: "group-hover:glow-secondary",
+    },
+    {
+      path: "/relax",
+      title: "Sanctuary",
+      subtitle: "Visual Meditation",
+      description: "De-stress your mind with harmonic motion. Find your inner calm.",
+      icon: Moon,
+      gradient: "from-synchros-cyan to-synchros-purple",
+      hoverGlow: "group-hover:glow-calm",
     },
   ];
 
